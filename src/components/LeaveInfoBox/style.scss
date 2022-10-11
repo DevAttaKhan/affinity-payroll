@@ -1,0 +1,40 @@
+.leave-info-box {
+  border: 1px solid #e5e5e5;
+  margin: 0 0 15px;
+  padding: 15px;
+
+  // .avatar {
+  //   background-color: transparent;
+  //   color: #ffffff;
+  //   display: inline-block;
+  //   font-weight: 500;
+  //   height: 34px;
+  //   line-height: 38px;
+  //   text-align: center;
+  //   text-decoration: none;
+  //   text-transform: uppercase;
+  //   vertical-align: middle;
+  //   width: 34px;
+  //   position: relative;
+  //   white-space: nowrap;
+  //   margin: 0 10px 0 0;
+  //   border-radius: 50%;
+  //   img {
+  //     width: 100%;
+  //     height: 100%;
+  //     -o-object-fit: cover;
+  //     object-fit: cover;
+  //     border-radius: 50%;
+  //   }
+  // }
+
+  .bg-inverse-danger {
+    background-color: rgba(242, 17, 54, 0.12) !important;
+    color: #e63c3c !important;
+  }
+
+  .bg-inverse-success {
+    background-color: rgba(15, 183, 107, 0.12) !important;
+    color: #26af48 !important;
+  }
+}

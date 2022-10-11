@@ -1,0 +1,47 @@
+
+//====== BASE SCSS variables ======//
+$base_fonts        :  14px;
+$base_lineHeight   :  1.35;
+$base_fontFamily   :  'Nunito', sans-serif;
+
+
+//====== COLORS SCSS VARIABLES ======//
+$white          :  #fff;
+$blue           :  #0040A1;
+$indigo         :  #6610f2;
+$purple         :  #6f42c1;
+$pink           :  #e83e8c;
+$red            :  #dc3545;
+$orange         :  #fd7e14;
+$yellow         :  #ffc107;
+$green          :  #28a745;
+$teal           :  #20c997;
+$cyan           :  #17a2b8;
+$primary        :  #007bff;
+$secondary      :  #6c757d;
+$success        :  #28a745;
+$info           :  #17a2b8;
+$warning        :  #ffc107;
+$danger         :  #dc3545;
+$light-grey     :  #f8f8f8;
+$border-color   :  #e0e6ed;
+$text-secondary : #3b3f5c;
+$grey           : #888ea8;
+
+
+//====== BREAKPOINTS SCSS VARIABLES ======//
+$breakpoint-xs   :  375px;
+$breakpoint-sm   :  575px;
+$breakpoint-md   :  767px;
+$breakpoint-lg   :  991px;
+$breakpoint-xl   :  1199px;
+
+:root {
+  //====== COLORS CSS VARIABLES ======//
+  --color-dark     :  #060818;
+  --color-light    :  #e0e6ed;
+  --gray           :  #6c757d;
+  --gray-dark      :  #343a40;
+  --light          :  #f8f9fa;
+  --dark           :  #343a40;
+}

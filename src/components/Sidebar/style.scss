@@ -1,0 +1,175 @@
+@import "../../scss/partials/mixins";
+
+//style
+.db_sidebar {
+  width: 100%;
+  flex: 0 0 100%;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  padding: 25px 15px;
+  background-color: $white;
+  border-right: 1px solid #e0e6ed;
+  z-index: 20;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    height: 33px;
+    width: 100%;
+    pointer-events: none;
+    margin-top: -13px;
+    left: -4px;
+    filter: blur(3px);
+    //background: linear-gradient(#f2f4f4 41%, hsla(0, 0%, 100%, .11) 95%, hsla(0, 0%, 100%, 0));
+  }
+
+  ul {
+    list-style-type: none;
+    li {
+      a {
+        color: #333;
+        display: block;
+        padding: 8px 8px 8px 16px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        &:hover {
+          background-color: $orange;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .accordion-item,
+  .accordion-button,
+  .accordion-header,
+  .accordion-body {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    &:after {
+      display: none;
+    }
+    &:hover {
+      &::after {
+        color: $white;
+      }
+    }
+  }
+
+  .accordion-body {
+    padding: 0;
+  }
+
+  .accordion-button {
+    .sidebar_link {
+      color: $white;
+      background: $blue;
+      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+      &:hover {
+        background: $blue;
+        color: $white;
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+      }
+    }
+
+    &.collapsed {
+      .sidebar_link {
+        background: transparent;
+        box-shadow: none;
+        color: #000;
+        &:hover {
+          background: $blue;
+          color: $white;
+          box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+        }
+      }
+    }
+  }
+
+  .sidebar_link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 13px;
+    color: #000;
+    line-height: 1;
+    padding: 11px 14px;
+    transition: 0.3s;
+    font-weight: 600;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    &:hover {
+      background: $blue;
+      color: $white;
+      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    }
+  }
+
+  .sidebar_icon {
+    margin-right: 10px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .down_icon {
+    position: absolute;
+    right: 10px;
+  }
+  .sub_list {
+    padding: 0 0 0 46px;
+
+    a {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 12px;
+      font-size: 13px;
+      color: $grey;
+
+      &:before {
+        content: "";
+        background-color: $grey;
+        position: absolute;
+        height: 3px;
+        width: 3px;
+        top: 17.5px;
+        left: 0;
+        border-radius: 50%;
+      }
+
+      &:hover {
+        color: $blue;
+
+        &:before {
+          background-color: $blue;
+        }
+      }
+    }
+  }
+}
+
+.accordion-button svg[data-icon="angle-down"] {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+.accordion-button.collapsed svg[data-icon="angle-down"] {
+  transform: rotate(0deg);
+}
+
+.accordion-item-active {
+  background-color: $orange;
+  color: #fff !important;
+}

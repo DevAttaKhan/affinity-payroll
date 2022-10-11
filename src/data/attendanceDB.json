@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Deck",
+        "dept": "Research and Development",
+        "designation": "Account Coordinator",
+        "date": "6/26/2022",
+        "timeIn": "12:24 PM",
+        "timeOut": "3:50 PM"
+    },
+    {
+        "id": 2,
+        "name": "Avrit",
+        "dept": "Human Resources",
+        "designation": "Health Coach I",
+        "date": "10/30/2021",
+        "timeIn": "4:30 AM",
+        "timeOut": "10:37 PM"
+    },
+    {
+        "id": 3,
+        "name": "Tommie",
+        "dept": "Accounting",
+        "designation": "General Manager",
+        "date": "12/19/2021",
+        "timeIn": "9:25 AM",
+        "timeOut": "4:08 PM"
+    },
+    {
+        "id": 4,
+        "name": "Gillan",
+        "dept": "Support",
+        "designation": "Help Desk Technician",
+        "date": "10/21/2021",
+        "timeIn": "4:13 PM",
+        "timeOut": "9:09 PM"
+    },
+    {
+        "id": 5,
+        "name": "Bogey",
+        "dept": "Product Management",
+        "designation": "Social Worker",
+        "date": "4/23/2022",
+        "timeIn": "6:28 AM",
+        "timeOut": "4:21 PM"
+    },
+    {
+        "id": 6,
+        "name": "Lishe",
+        "dept": "Business Development",
+        "designation": "Electrical Engineer",
+        "date": "1/18/2022",
+        "timeIn": "1:06 AM",
+        "timeOut": "8:06 AM"
+    },
+    {
+        "id": 7,
+        "name": "Cherin",
+        "dept": "Business Development",
+        "designation": "Research Nurse",
+        "date": "10/19/2021",
+        "timeIn": "9:19 AM",
+        "timeOut": "3:39 PM"
+    },
+    {
+        "id": 8,
+        "name": "Trista",
+        "dept": "Human Resources",
+        "designation": "Graphic Designer",
+        "date": "10/15/2021",
+        "timeIn": "8:19 AM",
+        "timeOut": "7:44 PM"
+    },
+    {
+        "id": 9,
+        "name": "Josi",
+        "dept": "Sales",
+        "designation": "Food Chemist",
+        "date": "1/31/2022",
+        "timeIn": "1:57 AM",
+        "timeOut": "5:30 PM"
+    },
+    {
+        "id": 10,
+        "name": "Lane",
+        "dept": "Support",
+        "designation": "Staff Scientist",
+        "date": "5/7/2022",
+        "timeIn": "8:28 AM",
+        "timeOut": "1:11 PM"
+    },
+    {
+        "id": 11,
+        "name": "Georgeta",
+        "dept": "Human Resources",
+        "designation": "Product Engineer",
+        "date": "3/21/2022",
+        "timeIn": "1:52 PM",
+        "timeOut": "3:59 PM"
+    },
+    {
+        "id": 12,
+        "name": "Briney",
+        "dept": "Marketing",
+        "designation": "Project Manager",
+        "date": "2/3/2022",
+        "timeIn": "11:09 PM",
+        "timeOut": "4:10 AM"
+    },
+    {
+        "id": 13,
+        "name": "Clarabelle",
+        "dept": "Training",
+        "designation": "Media Manager IV",
+        "date": "12/8/2021",
+        "timeIn": "6:27 PM",
+        "timeOut": "11:37 AM"
+    },
+    {
+        "id": 14,
+        "name": "Veronique",
+        "dept": "Training",
+        "designation": "Software Consultant",
+        "date": "4/23/2022",
+        "timeIn": "8:57 PM",
+        "timeOut": "5:29 PM"
+    },
+    {
+        "id": 15,
+        "name": "Cher",
+        "dept": "Research and Development",
+        "designation": "Accountant II",
+        "date": "10/8/2021",
+        "timeIn": "1:38 PM",
+        "timeOut": "8:04 AM"
+    }
+]

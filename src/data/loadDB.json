@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "loanCategory": "Curb & Gutter",
+        "allowedAmount": "$9.19",
+        "maxInstallment": "$3.56",
+        "status": "jcb"
+    },
+    {
+        "id": 2,
+        "loanCategory": "Marlite Panels (FED)",
+        "allowedAmount": "$8.74",
+        "maxInstallment": "$9.14",
+        "status": "jcb"
+    },
+    {
+        "id": 3,
+        "loanCategory": "Fire Protection",
+        "allowedAmount": "$6.24",
+        "maxInstallment": "$0.84",
+        "status": "americanexpress"
+    },
+    {
+        "id": 4,
+        "loanCategory": "Soft Flooring and Base",
+        "allowedAmount": "$1.05",
+        "maxInstallment": "$6.49",
+        "status": "diners-club-carte-blanche"
+    },
+    {
+        "id": 5,
+        "loanCategory": "Marlite Panels (FED)",
+        "allowedAmount": "$1.40",
+        "maxInstallment": "$9.09",
+        "status": "switch"
+    },
+    {
+        "id": 6,
+        "loanCategory": "Landscaping & Irrigation",
+        "allowedAmount": "$3.77",
+        "maxInstallment": "$4.26",
+        "status": "mastercard"
+    },
+    {
+        "id": 7,
+        "loanCategory": "Waterproofing & Caulking",
+        "allowedAmount": "$8.54",
+        "maxInstallment": "$2.79",
+        "status": "jcb"
+    },
+    {
+        "id": 8,
+        "loanCategory": "Curb & Gutter",
+        "allowedAmount": "$4.91",
+        "maxInstallment": "$7.50",
+        "status": "jcb"
+    },
+    {
+        "id": 9,
+        "loanCategory": "Soft Flooring and Base",
+        "allowedAmount": "$8.29",
+        "maxInstallment": "$2.80",
+        "status": "jcb"
+    },
+    {
+        "id": 10,
+        "loanCategory": "Granite Surfaces",
+        "allowedAmount": "$6.58",
+        "maxInstallment": "$5.54",
+        "status": "laser"
+    },
+    {
+        "id": 11,
+        "loanCategory": "Landscaping & Irrigation",
+        "allowedAmount": "$6.08",
+        "maxInstallment": "$6.57",
+        "status": "mastercard"
+    },
+    {
+        "id": 12,
+        "loanCategory": "HVAC",
+        "allowedAmount": "$9.16",
+        "maxInstallment": "$8.68",
+        "status": "bankcard"
+    },
+    {
+        "id": 13,
+        "loanCategory": "EIFS",
+        "allowedAmount": "$9.33",
+        "maxInstallment": "$4.22",
+        "status": "jcb"
+    },
+    {
+        "id": 14,
+        "loanCategory": "Temp Fencing, Decorative Fencing and Gates",
+        "allowedAmount": "$5.68",
+        "maxInstallment": "$9.32",
+        "status": "jcb"
+    },
+    {
+        "id": 15,
+        "loanCategory": "Ornamental Railings",
+        "allowedAmount": "$8.88",
+        "maxInstallment": "$0.44",
+        "status": "jcb"
+    }
+]

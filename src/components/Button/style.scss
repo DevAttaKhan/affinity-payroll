@@ -1,0 +1,24 @@
+@import "../../scss/partials/variables";
+
+.generic_buttn {
+  background-color: $blue;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 30px;
+  box-shadow: 0 0px 20px rgba($blue, 0.2);
+  border-radius: 3px;
+  color: #fff;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $orange;
+  }
+}
+
+.load-more {
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // background: rgba($orange, 0.5);
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "advanceCategory": "Structural and Misc Steel (Fabrication)",
+        "allowedAmount": "$5.69",
+        "status": "budgetary management"
+    },
+    {
+        "id": 2,
+        "advanceCategory": "Roofing (Asphalt)",
+        "allowedAmount": "$1.14",
+        "status": "customer loyalty"
+    },
+    {
+        "id": 3,
+        "advanceCategory": "Framing (Wood)",
+        "allowedAmount": "$9.11",
+        "status": "Multi-lateral"
+    },
+    {
+        "id": 4,
+        "advanceCategory": "Epoxy Flooring",
+        "allowedAmount": "$0.89",
+        "status": "Total"
+    },
+    {
+        "id": 5,
+        "advanceCategory": "Roofing (Metal)",
+        "allowedAmount": "$8.68",
+        "status": "Ergonomic"
+    },
+    {
+        "id": 6,
+        "advanceCategory": "Structural & Misc Steel Erection",
+        "allowedAmount": "$5.32",
+        "status": "national"
+    },
+    {
+        "id": 7,
+        "advanceCategory": "Hard Tile & Stone",
+        "allowedAmount": "$7.78",
+        "status": "Customizable"
+    },
+    {
+        "id": 8,
+        "advanceCategory": "Granite Surfaces",
+        "allowedAmount": "$5.68",
+        "status": "24 hour"
+    },
+    {
+        "id": 9,
+        "advanceCategory": "Site Furnishings",
+        "allowedAmount": "$1.92",
+        "status": "holistic"
+    },
+    {
+        "id": 10,
+        "advanceCategory": "Temp Fencing, Decorative Fencing and Gates",
+        "allowedAmount": "$6.77",
+        "status": "reciprocal"
+    },
+    {
+        "id": 11,
+        "advanceCategory": "Curb & Gutter",
+        "allowedAmount": "$6.03",
+        "status": "actuating"
+    },
+    {
+        "id": 12,
+        "advanceCategory": "Prefabricated Aluminum Metal Canopies",
+        "allowedAmount": "$3.52",
+        "status": "Adaptive"
+    },
+    {
+        "id": 13,
+        "advanceCategory": "Roofing (Asphalt)",
+        "allowedAmount": "$9.34",
+        "status": "high-level"
+    },
+    {
+        "id": 14,
+        "advanceCategory": "Soft Flooring and Base",
+        "allowedAmount": "$1.16",
+        "status": "Synergistic"
+    },
+    {
+        "id": 15,
+        "advanceCategory": "Framing (Steel)",
+        "allowedAmount": "$9.27",
+        "status": "User-friendly"
+    }
+]

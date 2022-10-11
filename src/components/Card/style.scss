@@ -1,0 +1,35 @@
+@import "../../scss/partials/variables";
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  .dash-widget-icon {
+    background-color: rgba($blue, 0.2);
+    color: $blue;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+    text-align: center;
+    width: 60px;
+    border-radius: 100%;
+  }
+
+  .dash-widget-info {
+    text-align: end;
+    h3 {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    span {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}

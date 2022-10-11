@@ -1,0 +1,51 @@
+@import "_variables";
+
+// Typography
+@mixin h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+}
+
+@mixin h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+}
+
+@mixin h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+}
+
+@mixin h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+}
+
+@mixin h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+}
+
+@mixin h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+}
+
+@mixin BodyText {
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 400;
+  font-family: var(--base-fontFamily);
+}

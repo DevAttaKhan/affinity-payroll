@@ -1,0 +1,52 @@
+@import "../../scss/partials/variables";
+.select-dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  button {
+    position: relative;
+    background: gainsboro;
+    padding: 9px;
+    width: 219px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg {
+      transition: 0.3s;
+    }
+    &.open {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .select-menu {
+    position: absolute;
+    left: 0;
+    width: 219px;
+    background: #f1f1f1;
+    top: 39px;
+    color: #000;
+    transition: 0.3s;
+    transform: translateY(-20%);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+    &.show {
+      opacity: 1;
+      transform: translateY(2%);
+      pointer-events: auto;
+    }
+    span {
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+      &:hover {
+        background: $orange;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@import "../../scss/partials/_mixins";
+@import "../../scss/partials/_variables";
+
+.db_header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  border-bottom: 1px solid #060818;
+  background-color: $blue;
+  padding: 5px 15px;
+  height: 54px;
+  max-height: 54px;
+  display: flex;
+  align-items: center;
+
+  .logo_cell {
+    display: flex;
+    align-items: center;
+    width: 180px;
+  }
+
+  .db_logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+  }
+
+  .db_logoText {
+    font-size: 24px;
+    color: var(--color-light);
+    line-height: 2.75rem;
+    padding: 0 12px 0 8px;
+    text-transform: none;
+    position: unset;
+    font-weight: 700;
+  }
+
+  .db_search {
+    position: relative;
+
+    svg {
+      font-weight: 600;
+      margin: 0 9.6px;
+      cursor: pointer;
+      color: $white;
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      top: 9px;
+    }
+
+    input {
+      font-size: $base-fonts;
+      background-color: rgba(81, 83, 101, .28);
+      border-radius: 6px;
+      color: $white;
+      letter-spacing: 1px;
+      padding: 0 4px 0 35px;
+      height: 36px;
+      font-weight: 600;
+      border: 1px solid $white;
+      width: 370px;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+      &::placeholder{
+        color: $white;
+      }
+    }
+  }
+
+  .db_cellActions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .header_dd {
+    display: flex;
+    align-items: center;
+  }
+
+  .theme_mode {
+    a,button {
+      color: #e0e6ed;
+      white-space: nowrap;
+      font-size: $base_fonts;
+      background-color: transparent;
+      padding: 0;
+      border: navajowhite;
+      cursor: pointer;
+    }
+    svg {
+      margin-right: 7px;
+    }
+  }
+}

@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "categoryName": "Electrical",
+        "allowedLeaves": 1,
+        "appliedTo": "Kirstyn",
+        "empType": "Clinical Specialist",
+        "status": "Sr"
+    },
+    {
+        "id": 2,
+        "categoryName": "Site Furnishings",
+        "allowedLeaves": 2,
+        "appliedTo": "Beitris",
+        "empType": "Assistant Media Planner",
+        "status": "IV"
+    },
+    {
+        "id": 3,
+        "categoryName": "Asphalt Paving",
+        "allowedLeaves": 3,
+        "appliedTo": "Raynard",
+        "empType": "Software Engineer IV",
+        "status": "III"
+    },
+    {
+        "id": 4,
+        "categoryName": "Waterproofing & Caulking",
+        "allowedLeaves": 4,
+        "appliedTo": "Bram",
+        "empType": "Help Desk Operator",
+        "status": "Sr"
+    },
+    {
+        "id": 5,
+        "categoryName": "Waterproofing & Caulking",
+        "allowedLeaves": 5,
+        "appliedTo": "Iorgos",
+        "empType": "Occupational Therapist",
+        "status": "Jr"
+    },
+    {
+        "id": 6,
+        "categoryName": "Asphalt Paving",
+        "allowedLeaves": 6,
+        "appliedTo": "Jacklyn",
+        "empType": "Help Desk Operator",
+        "status": "III"
+    },
+    {
+        "id": 7,
+        "categoryName": "Framing (Wood)",
+        "allowedLeaves": 7,
+        "appliedTo": "Janenna",
+        "empType": "Sales Associate",
+        "status": "Sr"
+    },
+    {
+        "id": 8,
+        "categoryName": "Roofing (Asphalt)",
+        "allowedLeaves": 8,
+        "appliedTo": "Jo ann",
+        "empType": "Tax Accountant",
+        "status": "Sr"
+    },
+    {
+        "id": 9,
+        "categoryName": "Casework",
+        "allowedLeaves": 9,
+        "appliedTo": "Broderick",
+        "empType": "Web Designer III",
+        "status": "Jr"
+    },
+    {
+        "id": 10,
+        "categoryName": "Glass & Glazing",
+        "allowedLeaves": 10,
+        "appliedTo": "Briggs",
+        "empType": "Software Consultant",
+        "status": "III"
+    },
+    {
+        "id": 11,
+        "categoryName": "Asphalt Paving",
+        "allowedLeaves": 11,
+        "appliedTo": "Bertha",
+        "empType": "VP Sales",
+        "status": "III"
+    },
+    {
+        "id": 12,
+        "categoryName": "Roofing (Metal)",
+        "allowedLeaves": 12,
+        "appliedTo": "Lenci",
+        "empType": "VP Accounting",
+        "status": "II"
+    },
+    {
+        "id": 13,
+        "categoryName": "Rebar & Wire Mesh Install",
+        "allowedLeaves": 13,
+        "appliedTo": "Say",
+        "empType": "Research Assistant IV",
+        "status": "III"
+    },
+    {
+        "id": 14,
+        "categoryName": "EIFS",
+        "allowedLeaves": 14,
+        "appliedTo": "Elva",
+        "empType": "Business Systems Development Analyst",
+        "status": "Sr"
+    },
+    {
+        "id": 15,
+        "categoryName": "Glass & Glazing",
+        "allowedLeaves": 15,
+        "appliedTo": "Lisha",
+        "empType": "Analog Circuit Design manager",
+        "status": "Sr"
+    },
+    {
+        "id": 16,
+        "categoryName": "Painting & Vinyl Wall Covering",
+        "allowedLeaves": 16,
+        "appliedTo": "Ricoriki",
+        "empType": "Associate Professor",
+        "status": "II"
+    },
+    {
+        "id": 17,
+        "categoryName": "EIFS",
+        "allowedLeaves": 17,
+        "appliedTo": "Ruthy",
+        "empType": "Assistant Professor",
+        "status": "Sr"
+    },
+    {
+        "id": 18,
+        "categoryName": "Drilled Shafts",
+        "allowedLeaves": 18,
+        "appliedTo": "Gar",
+        "empType": "GIS Technical Architect",
+        "status": "II"
+    },
+    {
+        "id": 19,
+        "categoryName": "Roofing (Asphalt)",
+        "allowedLeaves": 19,
+        "appliedTo": "Fifine",
+        "empType": "Environmental Tech",
+        "status": "II"
+    },
+    {
+        "id": 20,
+        "categoryName": "Masonry & Precast",
+        "allowedLeaves": 20,
+        "appliedTo": "Colline",
+        "empType": "Analyst Programmer",
+        "status": "Sr"
+    }
+]

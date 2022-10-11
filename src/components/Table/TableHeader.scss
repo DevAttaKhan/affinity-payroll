@@ -1,0 +1,14 @@
+.table_container {
+  .table_body {
+    table {
+      thead {
+        vertical-align: bottom;
+        th {
+          white-space: nowrap;
+          border-top: 1px solid #e2e5e8;
+          padding: 1rem 0.75rem;
+        }
+      }
+    }
+  }
+}

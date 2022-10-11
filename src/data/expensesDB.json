@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Alexis",
+        "dept": "Services",
+        "date": "9/28/2021",
+        "amount": "$7.05",
+        "category": "Landscaping & Irrigation"
+    },
+    {
+        "id": 2,
+        "name": "Onida",
+        "dept": "Sales",
+        "date": "2/1/2022",
+        "amount": "$7.77",
+        "category": "HVAC"
+    },
+    {
+        "id": 3,
+        "name": "Gabriela",
+        "dept": "Human Resources",
+        "date": "12/29/2021",
+        "amount": "$6.11",
+        "category": "Drywall & Acoustical (MOB)"
+    },
+    {
+        "id": 4,
+        "name": "Garald",
+        "dept": "Product Management",
+        "date": "10/3/2021",
+        "amount": "$4.41",
+        "category": "Termite Control"
+    },
+    {
+        "id": 5,
+        "name": "Eberto",
+        "dept": "Sales",
+        "date": "7/26/2022",
+        "amount": "$8.27",
+        "category": "Masonry"
+    },
+    {
+        "id": 6,
+        "name": "Fran",
+        "dept": "Human Resources",
+        "date": "3/10/2022",
+        "amount": "$9.77",
+        "category": "Hard Tile & Stone"
+    },
+    {
+        "id": 7,
+        "name": "Pembroke",
+        "dept": "Training",
+        "date": "3/6/2022",
+        "amount": "$4.68",
+        "category": "Fire Protection"
+    },
+    {
+        "id": 8,
+        "name": "Parry",
+        "dept": "Business Development",
+        "date": "6/14/2022",
+        "amount": "$8.64",
+        "category": "Curb & Gutter"
+    },
+    {
+        "id": 9,
+        "name": "Haley",
+        "dept": "Sales",
+        "date": "4/16/2022",
+        "amount": "$2.28",
+        "category": "Overhead Doors"
+    },
+    {
+        "id": 10,
+        "name": "Jackson",
+        "dept": "Research and Development",
+        "date": "10/19/2021",
+        "amount": "$0.61",
+        "category": "Granite Surfaces"
+    },
+    {
+        "id": 11,
+        "name": "Dirk",
+        "dept": "Product Management",
+        "date": "3/19/2022",
+        "amount": "$7.13",
+        "category": "Doors, Frames & Hardware"
+    },
+    {
+        "id": 12,
+        "name": "Natale",
+        "dept": "Human Resources",
+        "date": "6/17/2022",
+        "amount": "$2.97",
+        "category": "Drywall & Acoustical (FED)"
+    },
+    {
+        "id": 13,
+        "name": "Shandee",
+        "dept": "Research and Development",
+        "date": "4/28/2022",
+        "amount": "$4.13",
+        "category": "Exterior Signage"
+    },
+    {
+        "id": 14,
+        "name": "North",
+        "dept": "Accounting",
+        "date": "10/15/2021",
+        "amount": "$0.18",
+        "category": "Temp Fencing, Decorative Fencing and Gates"
+    },
+    {
+        "id": 15,
+        "name": "Margret",
+        "dept": "Support",
+        "date": "10/8/2021",
+        "amount": "$3.59",
+        "category": "Plumbing & Medical Gas"
+    }
+]

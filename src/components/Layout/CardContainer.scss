@@ -1,0 +1,16 @@
+.table_container {
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  .table_heading {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 15px;
+  }
+
+  .table_footer {
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+}

@@ -1,0 +1,139 @@
+@import "partials/_variables";
+
+// Main SCSS
+.db_wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 120px 25px 30px 25px;
+  position: relative;
+  box-sizing: border-box;
+  transition: 0.5s all ease-in-out;
+
+  &:before {
+    content: "";
+    width: 100%;
+    max-width: 220px;
+    flex: 0 0 220px;
+    height: calc(50vh - 100px);
+    transition: 0.5s all ease-in-out;
+  }
+
+  .db_topBar {
+    position: fixed;
+    background-color: #ccc;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    left: 0;
+    top: 54px;
+  }
+
+  .sidebar_col {
+    width: 220px;
+    flex: 0 0 220px;
+    position: fixed;
+    margin: 0;
+    overflow: hidden;
+    height: calc(100vh - 53px) !important;
+    top: 103px;
+    left: 0;
+    z-index: 20;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 5px -1px 8px -4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px -1px 8px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px -1px 8px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  //  sidebar hidden CSS
+  &.sidebarHidden {
+    &:before {
+      width: 0;
+      max-width: 0;
+      flex: 0 0 0;
+    }
+
+    .sidebar_col {
+      left: -250px;
+    }
+  }
+}
+
+//====== Top BAR CSS ======//
+.topBar_container {
+  padding: 9px 25px;
+  box-shadow: 0 20px 20px rgb(126, 142, 177, 0.12);
+  background: $light-grey;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  min-height: 54px;
+  width: 100%;
+  border-bottom: 1px solid $border-color;
+}
+
+.sidebar_btn {
+  width: 20px;
+  height: 20px;
+  color: $text-secondary;
+  vertical-align: text-top;
+
+  svg {
+    fill: $text-secondary;
+    width: 20px;
+    height: 20px;
+    color: $text-secondary;
+    vertical-align: text-top;
+  }
+}
+
+//====== Breadcrumb Style ======//
+.breadcrumb {
+  margin: 0;
+  padding-left: 25px;
+
+  .breadcrumb-item {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $text-secondary;
+
+    a {
+      color: $blue;
+    }
+  }
+}
+
+.badge {
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  &:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+.outline-badge-primary {
+  color: #4361ee;
+  background-color: transparent;
+  border: 1px solid #4361ee;
+}
+.outline-badge-secondary {
+  color: #805dca;
+  background-color: transparent;
+  border: 1px solid #805dca;
+}
+.outline-badge-info {
+  color: #2196f3;
+  background-color: transparent;
+  border: 1px solid #2196f3;
+}
+.outline-badge-danger {
+  color: #e7515a;
+  background-color: transparent;
+  border: 1px solid #e7515a;
+}

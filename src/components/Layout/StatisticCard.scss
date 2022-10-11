@@ -1,0 +1,29 @@
+.statistic__card {
+  position: relative;
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  .card-title {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .card_body {
+    height: 285px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+      // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #bbb;
+      border-radius: 10px;
+      outline: none;
+    }
+    scrollbar-width: thin;
+  }
+}
